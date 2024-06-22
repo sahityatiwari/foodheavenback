@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const dbConnection = () => {
-    const MONGO_URI = "mongodb+srv://sahitya7:Sahitya@2001@foodheavencluster.gwdbzq8.mongodb.net/foodheavendatabase?retryWrites=true&w=majority";
+    const MONGO_URI = "mongodb+srv://sahitya7:Sahitya@2001@cluster0.xnbgpr8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
     mongoose.connect(MONGO_URI)
         .then(() => {
